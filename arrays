@@ -1,0 +1,9 @@
+#! /bin/bash
+
+echo "Enter multiple names"
+read -a names
+echo "$names[0]"
+echo "${names[5]}"
+#Remember REPLY variable 
+read 
+echo $REPLY 

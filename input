@@ -1,0 +1,23 @@
+\#! /bin/bash
+
+echo Enter you name
+read name
+echo So you are: $name
+
+cat<<pointer
+now enter multiple names 
+pointer
+
+read name1 name2 name3
+echo "You've Enterd $name1,$name2,,$name3"
+
+cat<<b 
+now enter accordingly 
+b
+
+read -p "Enter email: " mail
+echo "you've enterd : " $mail 
+
+read -sp "Enter password : " passwd 
+echo
+echo "Password accepted" 

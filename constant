@@ -1,0 +1,22 @@
+#!/bin/bash
+
+declare -r num1=2
+
+num2=4
+
+add=$((num2+num1))
+sub=$((num2-num1))
+mul=$((num2*num1))
+div=$((num2/num1))
+
+echo additon = $add
+echo subtraction = $sub
+echo multiplication = $multi
+echo division = $div
+echo $HOME
+#comment
+cat<<ref
+This is it
+go home now
+kid
+echo $BASH

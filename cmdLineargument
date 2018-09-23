@@ -1,0 +1,9 @@
+#! /bin/bash
+# $1 $0 $@
+#to print no of items in array
+echo $1 $2 $3 "Are present inside script : " $0
+tempvar=("$@")
+echo ${tempvar[2]} ${tempvar[0]}
+echo $@
+echo $#   #print no. of cmd input
+echo $* 

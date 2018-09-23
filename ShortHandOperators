@@ -1,0 +1,9 @@
+#!/bin/bash
+
+num=7
+let num+=99
+
+echo $num
+
+echo num++ = $((num++))
+echo ++num = $((++num))
